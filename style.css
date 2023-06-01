@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+.page{
+      height: 100vh;
+      width: 100vw;
+      background: linear-gradient(to bottom right, #83b6c8, #055b6a);
+      position: relative;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 14vh;
+  left: 7vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  outline: none;
+  transition: all 0.3s ease;
+  width: 60%;
+  height: 40%;
+}
+
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateY(-5px);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
